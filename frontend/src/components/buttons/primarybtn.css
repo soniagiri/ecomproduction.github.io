@@ -1,0 +1,12 @@
+.primary_btn{
+    background: var(--clr-primary);
+    color: var(--clr-secondary);
+    padding: 1em 2em;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+
+
+}
+.primary_btn:hover{
+    filter: brightness(300%);
+}

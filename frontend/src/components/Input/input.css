@@ -1,0 +1,21 @@
+.input_container{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+.input_label{
+    text-transform: capitalize;
+    font-weight:500;
+}
+
+.input_box{
+    padding: .4em ;
+    outline: none;
+    border: 1px solid var(--clr-primary);
+    
+    
+    
+}
+.input_box[data-type="name"]{
+    text-transform: capitalize;
+}

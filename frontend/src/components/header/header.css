@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  position: sticky;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: var(--shadow-primary);
+  
+}
+
+header.active{
+  background: var(--clr-secondary);
+}
+
+
+.menu {
+  display: none;
+}
+
+
+@media (max-width: 853px) {
+  .menu {
+    display: block;
+  }
+
+
+}

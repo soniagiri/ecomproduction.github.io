@@ -1,0 +1,69 @@
+:root {
+
+  --shadow-primary:0px 4px 8px rgb(0, 0, 0, 0.07);
+}
+[data-theme="light"]{
+  --clr-primary:#222222;
+  --clr-secondary:white;
+}
+[data-theme="dark"]{
+  --clr-primary:white;
+  --clr-secondary:#222222                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
+}
+/* ---------- Reset Start ---------- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background: transparent;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  font-weight:semibold;
+  cursor: pointer;
+  color: var(--clr-primary);
+}
+
+/* ---------- Reset End ---------- */
+/* ---------- Utility Start ---------- */
+.container{
+    max-width: 100%;
+    padding: 1rem 4%;
+}
+
+.flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+/* ---------- Utility End ---------- */
+
+
+/* ---------- Utility Start ---------- */
+/* ---------- Utility End ---------- */
