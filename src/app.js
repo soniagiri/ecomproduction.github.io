@@ -1,5 +1,6 @@
 import express, { urlencoded } from "express";
 import cookieParser from "cookie-parser";
+import userRouter from "./routes/user.router.js";
 
 const app = express();
 // app.use(cors({
@@ -11,4 +12,6 @@ app.use(express.urlencoded({ extended: true, limit: "20kb" })); //yha pe issue h
 app.use(express.static("public"));
 app.use(cookieParser());
 
+// routes
+app.use("/api/v1/users", userRouter)
 export default app;
